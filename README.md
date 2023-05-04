@@ -5,7 +5,7 @@ This repository contains the original implementation for "***Residual Prompt Tun
 <img src="images/residual_pt_method.png" align="right" width="300">
 <!-- **Illustration of Residual Prompt Tuning and comparison with prompt tuning by Lester et al. (2021). ** -->
 
-🎊 **Our work is accepted to ACL Findings 2023!** 🎊
+🎊 **Our work is accepted to ACL Findings 2023!** 
 
 <!-- Our paper here - ["Residual Prompt Tuning: Improving Prompt Tuning
 with Residual Reparameterization"](https://arxiv.org/abs/2301.12314), ICLR 2023. -->
