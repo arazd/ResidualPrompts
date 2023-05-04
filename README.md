@@ -1,19 +1,29 @@
 # Residual Prompt Tuning
-This repository contains the original implementation for "Residual Prompt Tuning: Improving Prompt Tuning with Residual Reparameterization" (ACL 2023) by Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, Jimmy Ba and Amjad Almahairi.
+This repository contains the original implementation for "***Residual Prompt Tuning: Improving Prompt Tuning with Residual Reparameterization***" (ACL 2023) by Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, Jimmy Ba and Amjad Almahairi.
 
 <!-- ![Residual Prompt Tuning illustration](/images/residual_pt_method.png) -->
 <img src="images/residual_pt_method.png" align="right" width="300">
-**Illustration of Residual Prompt Tuning and comparison with prompt tuning by Lester et al. (2021). **
+<!-- **Illustration of Residual Prompt Tuning and comparison with prompt tuning by Lester et al. (2021). ** -->
 
 **Our work is accepted to ACL Findings 2023!**
 
 <!-- Our paper here - ["Residual Prompt Tuning: Improving Prompt Tuning
 with Residual Reparameterization"](https://arxiv.org/abs/2301.12314), ICLR 2023. -->
 
-Our codebase includes:
-* regular prompt tuning (following Lester et al.)
+Our codebase includes pytorch implementation of:
+* original prompt tuning (following Lester et al.)
 * residual prompt tuning (our modification)
 * full model tuning
+
+### Table of contents
+* [Overview](#Overview)
+* [Installation](#Installation)
+* [Training](#Training) 
+<!-- * [How to cite](#raising_hand-questions) -->
+
+
+## Overview
+
 
 <!-- To create nlp virtual env., run:
 conda env create -f environment.yaml -->
@@ -36,4 +46,4 @@ python train.py --task wsc --prefix_MLP MLP1 \
     --save_dir /home/%u/my_dir/ --save_name my_model_folder
 ```
 
-## Repo structure
+<!-- ## Repo structure -->
