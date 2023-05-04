@@ -5,7 +5,7 @@ This repository contains the original implementation for "***Residual Prompt Tun
 <img src="images/residual_pt_method.png" align="right" width="300">
 <!-- **Illustration of Residual Prompt Tuning and comparison with prompt tuning by Lester et al. (2021). ** -->
 
-**Our work is accepted to ACL Findings 2023!**
+🎊 **Our work is accepted to ACL Findings 2023!** 🎊
 
 <!-- Our paper here - ["Residual Prompt Tuning: Improving Prompt Tuning
 with Residual Reparameterization"](https://arxiv.org/abs/2301.12314), ICLR 2023. -->
@@ -23,13 +23,17 @@ Our codebase includes pytorch implementation of:
 
 
 ## Overview
+We introduce Residual Prompt Tuning – a simple and efficient method that significantly improves the performance and stability of prompt tuning. We propose to reparameterize soft prompt embedings using a shallow network with a residual connection. 
 
+This reparameterization gives the model more flexibility to decide between using a separate embedding for each prompt token versus the representation obtained from the
+shared reparameterization network. After training is completed, the reparameterization network can be discarded and original prompt embeddings can be replaced with their projections.
 
 <!-- To create nlp virtual env., run:
 conda env create -f environment.yaml -->
 ## Installation
+Clone this repo as follows:
 ```bash
-git clone https://github.com/arazd/soft_prompts
+git clone https://github.com/arazd/ResidualPrompts
 cd ResidualPrompts
 conda env create -f environment.yaml
 conda activate nlp
