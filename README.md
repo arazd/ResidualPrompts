@@ -8,7 +8,7 @@ Our paper here - ["Residual Prompt Tuning: Improving Prompt Tuning
 with Residual Reparameterization"](https://arxiv.org/abs/2301.12314), ICLR 2023.
 
 <!-- ![Residual Prompt Tuning illustration](/images/residual_pt_method.png) -->
-<img src="images/residual_pt_method.png" width="50">
+<img src="images/residual_pt_method.png" width="200">
 **Illustration of Residual Prompt Tuning and comparison with prompt tuning by Lester et al. (2021). **
 
 
