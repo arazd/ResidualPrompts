@@ -1,6 +1,18 @@
-# Prompt Tuning
-Codebase for Prompt Tuning experiments on T5. Includes:
-* regular prompt tuning (following Lester et al)
+# Residual Prompt Tuning
+This repository contains the original implementation for "Residual Prompt Tuning: Improving Prompt Tuning with Residual Reparameterization" (ACL 2023) by Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, Jimmy Ba and Amjad Almahairi.
+
+*Our work is accepted to ACL Findings 2023!*
+
+
+Our paper here - ["Residual Prompt Tuning: Improving Prompt Tuning
+with Residual Reparameterization"](https://arxiv.org/abs/2301.12314), ICLR 2023.
+
+![Residual Prompt Tuning illustration](/images/residual_pt_method.png)
+**Illustration of Residual Prompt Tuning and comparison with prompt tuning by Lester et al. (2021). **
+
+
+We include codebase for:
+* regular prompt tuning (following Lester et al.)
 * residual prompt tuning (our modification)
 * full model tuning
 
@@ -9,7 +21,7 @@ conda env create -f environment.yaml -->
 ## Installation
 ```bash
 git clone https://github.com/arazd/soft_prompts
-cd soft_prompts
+cd ResidualPrompts
 conda env create -f environment.yaml
 conda activate nlp
 ```
