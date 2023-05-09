@@ -1,5 +1,6 @@
 # Residual Prompt Tuning
-This repository contains the original implementation for "***Residual Prompt Tuning: Improving Prompt Tuning with Residual Reparameterization***" (ACL 2023) by Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, Jimmy Ba and Amjad Almahairi.
+This repository contains the original implementation for ["Residual Prompt Tuning: Improving Prompt Tuning
+with Residual Reparameterization"](https://arxiv.org/abs/2305.03937) (ACL 2023) by Anastasia Razdaibiedina, Yuning Mao, Rui Hou, Madian Khabsa, Mike Lewis, Jimmy Ba and Amjad Almahairi.
 
 <!-- ![Residual Prompt Tuning illustration](/images/residual_pt_method.png) -->
 <img src="images/residual_pt_method.png" align="right" width="300">
@@ -8,7 +9,7 @@ This repository contains the original implementation for "***Residual Prompt Tun
 🎊 **Our work is accepted to ACL Findings 2023!** 
 
 <!-- Our paper here - ["Residual Prompt Tuning: Improving Prompt Tuning
-with Residual Reparameterization"](https://arxiv.org/abs/2301.12314), ICLR 2023. -->
+with Residual Reparameterization"](https://arxiv.org/abs/2305.03937), Findings of ACL 2023. -->
 
 ### Table of contents
 * [Overview](#Overview)
